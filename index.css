@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }  
+
+  body{
+    margin:0px;
+    padding:0px;
+  }
+
+  header{
+    background-color:rgb(33, 72, 117);
+    position:fixed; 
+    width: 100%;
+    }
+
+  header, main{
+    font-family: "Roboto";
+    font-size:medium;
+    font-weight:700;
+    margin:0px;
+    padding: 0px;
+  }
+
+  main{
+    padding-top: 30px;
+    padding-bottom: 50%;
+  }
+
+  h1, h2, p{
+    margin:0px;
+    padding:0px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 100px;
+    padding: 20px;
+    }
+
+  h2{
+    font-size: xx-large;
+  }
+
+  ul{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  nav li{
+    color:aliceblue;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  footer{
+    font-family:"Montserrat";
+    font-style: italic;
+    background-color:rgb(33, 72, 117);
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #home_logo{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  main{
+    background-color:rgb(53, 135, 190);
+  }
+  
+
+  a:hover {
+    color:rgb(53, 135, 190);
+  }
+
+  a{
+    color:aliceblue;
+    text-decoration: none;
+  }
+
